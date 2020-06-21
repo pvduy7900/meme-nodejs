@@ -31,10 +31,10 @@ console.log("original day",originals)
     })
   })
 
-  router.get('/upload',(req,res,next)=>{
-    let originals = loadOriginals()
-    return res.render("original",{images : originals, path : "/images/originals/"})
-  })
+  // router.get('/upload',(req,res,next)=>{
+  //   let originals = loadOriginals()
+  //   return res.render("original",{images : originals, path : "/images/originals/"})
+  // })
 
 
 
